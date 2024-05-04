@@ -1,0 +1,51 @@
+.header {
+    padding: 30px 0;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .header-logo-wrap {
+        display: flex;
+        align-items: center;
+        gap: 0 65px;
+
+        .phone-wrap {
+            display: flex;
+            align-items: center;
+            gap: 0 15px;
+
+            .phone {
+                font-size: 24px;
+                color: rgb(131, 131, 131);
+            }
+
+            .choose {
+                color: rgb(16, 16, 16);
+                font-family: 'Montserrat';
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 18px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+
+        }
+
+    }
+
+    .header-list {
+        display: flex;
+        align-items: center;
+        gap: 0 45px;
+
+        .header-item {
+            color: rgb(131, 131, 131);
+            font-size: 24px;
+        }
+
+    }
+
+}

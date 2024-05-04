@@ -1,0 +1,96 @@
+.hello {
+    margin-bottom: 50px;
+}
+
+.hello-title {
+    margin-bottom: 20px;
+    color: rgb(131, 131, 131);
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hello-list {
+    display: flex;
+    align-items: center;
+    gap: 30px 30px;
+    flex-wrap: wrap;
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.hello-item {
+    padding: 15px 21px 33px 22px;
+    width: 350px;
+    height: 407px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+
+    .hello-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .left-title {
+        margin-bottom: 25px;
+        color: rgb(28, 28, 39);
+        font-family: 'Montserrat';
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 21px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .star-wrap {
+        display: flex;
+        align-items: center;
+        gap: 0 10px;
+
+        .star-text {
+            color: rgb(131, 131, 131);
+            font-family: 'Montserrat';
+            font-size: 17px;
+            font-weight: 600;
+            line-height: 21px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+
+    }
+
+    .right-wrap {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .price {
+            color: rgb(255, 165, 66);
+            font-family: 'Montserrat';
+            font-size: 17px;
+            font-weight: 600;
+            line-height: 21px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+
+        .discount {
+            color: rgb(255, 206, 127);
+            font-family: 'Montserrat';
+            font-size: 13px;
+            font-weight: 600;
+            line-height: 16px;
+            letter-spacing: 0%;
+            text-align: left;
+            text-decoration-line: line-through;
+        }
+    }
+
+}
